@@ -50,19 +50,16 @@ final class TestEsperanto: XCTestCase {
         XCTAssertEqual(esperanto.read(1_000_000_000), "miliardo")
         XCTAssertEqual(esperanto.read(4_003_022_729), "kvar miliardoj tri milionoj dudek du mil sepcent dudek naŭ")
         XCTAssertEqual(esperanto.read(1_000_000_000_000), "biliono")
-        XCTAssertEqual(esperanto.read(5_004_003_022_729), "Kvin bilionoj kvar miliardoj tri milionoj dudek du mil sepcent dudek naŭ")
-
-        XCTAssertEqual(esperanto.read(-1), "minus uno")
-//        XCTAssertEqual(esperanto.read(-74), "minus setenta y cuatro")
-//        XCTAssertEqual(esperanto.read(-1_000_000), "minus un millón")
-//        XCTAssertEqual(esperanto.read("1.5"), "uno coma cinco")
-//        XCTAssertEqual(esperanto.read("-1.5"), "minus uno coma cinco")
-//        XCTAssertEqual(esperanto.read("-1.51"), "minus uno coma cinco uno")
-//        XCTAssertEqual(esperanto.read("-0.7"), "minus cero coma siete")
-//        XCTAssertEqual(esperanto.read("-1.5"), "minus uno coma cinco")
-//        XCTAssertEqual(esperanto.read("3.1415926"), "tres coma uno cuatro uno cinco nueve dos seis")
-//        XCTAssertEqual(esperanto.read("-3.1415926"), "negativa tres coma uno cuatro uno cinco nueve dos seis")
-//        XCTAssertEqual(esperanto.read("3.4e16"), "tres coma cuatro por diez elevado a dieciséis")
-//        XCTAssertEqual(esperanto.read("3.5e26"), "tres coma cinco por diez elevado a veintiséis")
+        XCTAssertEqual(esperanto.read(5_004_003_022_729), "kvin bilionoj kvar miliardoj tri milionoj dudek du mil sepcent dudek naŭ")
+        XCTAssertEqual(esperanto.read(-1), "minus unu")
+        XCTAssertEqual(esperanto.read(-1_000_000), "minus miliono")
+        XCTAssertEqual(esperanto.read("1.5"), "unu kaj kvin")
+//        XCTAssertEqual(esperanto.read("-1.51"), "
+//        XCTAssertEqual(esperanto.read("-0.7"), "
+//        XCTAssertEqual(esperanto.read("-1.5"), "
+//        XCTAssertEqual(esperanto.read("3.1415926"), "
+//        XCTAssertEqual(esperanto.read("-3.1415926"), "
+//        XCTAssertEqual(esperanto.read("3.4e16"), "
+//        XCTAssertEqual(esperanto.read("3.5e26"), "
     }
 }
