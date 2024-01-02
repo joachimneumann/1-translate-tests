@@ -1,5 +1,10 @@
 The 1-Translate app is a calculator that can display (and read) numbers in serval languages.
 
+Bugs and Tests
+In the Tests folder you can see how I test the translation of numbers into various languages.
+If you find a bug or have a proposal for an improvement, you can send me an email.
+You can also ask me to add another language :)
+
 License
 The app is open source.
 
