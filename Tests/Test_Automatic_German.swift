@@ -8,7 +8,7 @@ import XCTest
 
 final class TranslationsTestsAutomaticGerman: XCTestCase {
 
-    func test_automatic_german() {
+    func test_german() {
         let german = TranslateGerman()
         german.useSoftHyphen = false
         german.capitalisation = false
