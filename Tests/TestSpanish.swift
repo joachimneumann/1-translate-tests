@@ -9,15 +9,8 @@ import XCTest
 
 final class Test_Spanish: XCTestCase {
     func test_spanish() {
-        let spanish = Languages().spanish
+        var spanish = Languages().spanish
         
-        XCTAssertEqual(spanish.read(-1), "menos uno")
-        XCTAssertEqual(spanish.read(-1), "menos uno")
-        XCTAssertEqual(spanish.read("1.5"), "uno coma cinco")
-        XCTAssertEqual(spanish.read("-1.5"), "menos uno coma cinco")
-        XCTAssertEqual(spanish.read("-1.51"), "menos uno coma cinco uno")
-        XCTAssertEqual(spanish.read("-0.7"), "menos cero coma siete")
-        XCTAssertEqual(spanish.read("-1.5"), "menos uno coma cinco")
         XCTAssertEqual(spanish.read(0), "cero")
         XCTAssertEqual(spanish.read(1), "uno")
         XCTAssertEqual(spanish.read(2), "dos")
@@ -184,7 +177,13 @@ final class Test_Spanish: XCTestCase {
         XCTAssertEqual(spanish.read(1_000_000_000_000), "un billón")
         XCTAssertEqual(spanish.read(3_000_000_000_000), "tres billiones")
 
+        spanish.puntoComma = .coma
         XCTAssertEqual(spanish.read(-1), "menos uno")
+        XCTAssertEqual(spanish.read("1.5"), "uno coma cinco")
+        XCTAssertEqual(spanish.read("-1.5"), "menos uno coma cinco")
+        XCTAssertEqual(spanish.read("-1.51"), "menos uno coma cinco uno")
+        XCTAssertEqual(spanish.read("-0.7"), "menos cero coma siete")
+        XCTAssertEqual(spanish.read("-1.5"), "menos uno coma cinco")
         XCTAssertEqual(spanish.read(-74), "menos setenta y cuatro")
         XCTAssertEqual(spanish.read(-1_000_000), "menos un millón")
         XCTAssertEqual(spanish.read("3.1415926"), "tres coma uno cuatro uno cinco nueve dos seis")
