@@ -138,6 +138,7 @@ final class TestRoman: XCTestCase {
         XCTAssertEqual(roman.read(1000), "M") // 1000
         XCTAssertEqual(roman.read(5000), "V"+OVERLINE) //
         XCTAssertEqual(roman.read(10000), "X"+OVERLINE) //
+        XCTAssertEqual(roman.read(36000), "XXXVI"+OVERLINE) //
         XCTAssertEqual(roman.read(50000), "L"+OVERLINE) //
         XCTAssertEqual(roman.read(100000), "C"+OVERLINE) //
         XCTAssertEqual(roman.read(500000), "D"+OVERLINE) //
