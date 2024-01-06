@@ -15,7 +15,7 @@ extension String {
 final class TranslationsTestsAutomaticGerman: XCTestCase {
 
     func test_german() {
-        var german = Languages().german
+        let german = Languages().german
         german.capitalisation = true
         XCTAssertEqual(german.read(0).x, "Null")
         XCTAssertEqual(german.read(1).x, "Eins")

@@ -10,7 +10,7 @@ import XCTest
 final class TestVietnames: XCTestCase {
     
     func test_Vietnamese() {
-        var vietnamese = Languages().vietnamese
+        let vietnamese = Languages().vietnamese
         vietnamese.compact = false
         vietnamese.thousand = .nghìn
         vietnamese.secondLast = .lẻ

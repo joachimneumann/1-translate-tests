@@ -9,7 +9,7 @@ import XCTest
 
 final class Test_Spanish: XCTestCase {
     func test_spanish() {
-        var spanish = Languages().spanish
+        let spanish = Languages().spanish
         
         XCTAssertEqual(spanish.read(0), "cero")
         XCTAssertEqual(spanish.read(1), "uno")
