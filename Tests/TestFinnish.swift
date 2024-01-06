@@ -73,6 +73,7 @@ final class TestFinnish: XCTestCase {
         XCTAssertEqual(l.read(3721).x, "kolmetuhattaseitsemänsataakaksikymmentäyksi")
         XCTAssertEqual(l.read(10_000).x, "kymmenentuhatta")
         XCTAssertEqual(l.read(1_000_000).x, "miljoona")
+        XCTAssertEqual(l.read(1_001_000).x, "miljoona tuhat") // ? yksi miljoona tuhat
         XCTAssertEqual(l.read(2_000_000).x, "kaksi miljoonaa")
         XCTAssertEqual(l.read(1_000_000_000).x, "miljardi")
         XCTAssertEqual(l.read(300_700_400_283).x, "kolmesataa miljardia seitsemänsataa miljoonaa neljäsataatuhattakaksisataakahdeksankymmentäkolme")
