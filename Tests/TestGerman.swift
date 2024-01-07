@@ -1,5 +1,5 @@
 //
-//  Test_Automatic_German.swift
+//  Test_German.swift
 //
 //  Created by automatic.py
 //
@@ -12,7 +12,7 @@ extension String {
     }
 }
 
-final class TranslationsTestsAutomaticGerman: XCTestCase {
+final class Test_German: XCTestCase {
 
     func test_german() {
         let german = Languages().german
