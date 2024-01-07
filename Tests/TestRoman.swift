@@ -136,13 +136,27 @@ final class TestRoman: XCTestCase {
         XCTAssertEqual(roman.read(800), "DCCC") // 500+100+100+100
         XCTAssertEqual(roman.read(900), "CM") // 1000-100
         XCTAssertEqual(roman.read(1000), "M") // 1000
-        XCTAssertEqual(roman.read(5000), "V"+OVERLINE) //
-        XCTAssertEqual(roman.read(10000), "X"+OVERLINE) //
-        XCTAssertEqual(roman.read(36000), "XXXVI"+OVERLINE) //
-        XCTAssertEqual(roman.read(50000), "L"+OVERLINE) //
-        XCTAssertEqual(roman.read(100000), "C"+OVERLINE) //
-        XCTAssertEqual(roman.read(500000), "D"+OVERLINE) //
-        XCTAssertEqual(roman.read(1000000), "M"+OVERLINE) //
+        
+        XCTAssertEqual(roman.read(5000), "")
+        XCTAssertEqual(roman.read_OVERLINE(5000), "V")
+
+        XCTAssertEqual(roman.read(10000), "")
+        XCTAssertEqual(roman.read_OVERLINE(10000), "X")
+
+        XCTAssertEqual(roman.read(36000), "")
+        XCTAssertEqual(roman.read_OVERLINE(36000), "XXXVI")
+
+        XCTAssertEqual(roman.read(50000), "")
+        XCTAssertEqual(roman.read_OVERLINE(50000), "L")
+
+        XCTAssertEqual(roman.read(100000), "")
+        XCTAssertEqual(roman.read_OVERLINE(100000), "C")
+
+        XCTAssertEqual(roman.read(500000), "")
+        XCTAssertEqual(roman.read_OVERLINE(500000), "D")
+
+        XCTAssertEqual(roman.read(1000000), "")
+        XCTAssertEqual(roman.read_OVERLINE(1000000), "M")
     }
     
     func test_roman() {
@@ -166,16 +180,33 @@ final class TestRoman: XCTestCase {
         XCTAssertEqual(roman.read(3000), "MMM")
         XCTAssertEqual(roman.read(3500), "MMMD")
         XCTAssertEqual(roman.read(3999), "MMMCMXCIX")
-        XCTAssertEqual(roman.read(19876), "XIX"+OVERLINE+"DCCCLXXVI")
-        XCTAssertEqual(roman.read(54321), "LIV"+OVERLINE+"CCCXXI")
         
+        XCTAssertEqual(roman.read(19876), "DCCCLXXVI")
+        XCTAssertEqual(roman.read_OVERLINE(19876), "XIX")
+        
+        XCTAssertEqual(roman.read(54321), "CCCXXI")//+OVERLINE+"CCCXXI")
+        XCTAssertEqual(roman.read_OVERLINE(54321), "LIV")
+
         XCTAssertEqual(roman.read(87), "LXXXVII")
         XCTAssertEqual(roman.read(654), "DCLIV")
-        XCTAssertEqual(roman.read(87654), "LXXXVII"+OVERLINE+"DCLIV")
-        XCTAssertEqual(roman.read(98765), "XCVIII"+OVERLINE+"DCCLXV")
-        XCTAssertEqual(roman.read(123456), "CXXIII"+OVERLINE+"CDLVI")
-        XCTAssertEqual(roman.read(987654), "CMLXXXVII"+OVERLINE+"DCLIV")
-        XCTAssertEqual(roman.read(300000), "CCC"+OVERLINE)
+        
+        XCTAssertEqual(roman.read(87654), "DCLIV")
+        XCTAssertEqual(roman.read_OVERLINE(87654), "LXXXVII")
+        
+        XCTAssertEqual(roman.read(10000), "")
+        XCTAssertEqual(roman.read_OVERLINE(10000), "X")
+        
+        XCTAssertEqual(roman.read(98765), "DCCLXV")
+        XCTAssertEqual(roman.read_OVERLINE(98765), "XCVIII")
+        
+        XCTAssertEqual(roman.read(123456), "CDLVI")
+        XCTAssertEqual(roman.read_OVERLINE(123456), "CXXIII")
+        
+        XCTAssertEqual(roman.read(987654), "DCLIV")
+        XCTAssertEqual(roman.read_OVERLINE(987654), "CMLXXXVII")
+        
+        XCTAssertEqual(roman.read(300000), "")
+        XCTAssertEqual(roman.read_OVERLINE(300000), "CCC")
     }
 }
 
