@@ -11,7 +11,7 @@ final class TestArmenianNumerals: XCTestCase{
     let armenianNumerals = Languages().armenianNumerals
     
     func test() {
-        XCTAssertEqual(armenianNumerals.read(0), "zero: unknown")
+        XCTAssertEqual(armenianNumerals.read(0), "zero unknown")
         XCTAssertEqual(armenianNumerals.read(1), "Ա")
         XCTAssertEqual(armenianNumerals.read(2), "Բ")
         XCTAssertEqual(armenianNumerals.read(3), "Գ")

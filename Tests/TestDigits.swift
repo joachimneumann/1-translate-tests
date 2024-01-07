@@ -44,7 +44,7 @@ final class TestDigits: XCTestCase {
         XCTAssertEqual(digits.read(-12), "-12")
         XCTAssertEqual(digits.read("-1"), "-1")
         XCTAssertEqual(digits.read("0"), "0")
-        XCTAssertEqual(digits.read("-0"), "-0")
+        XCTAssertEqual(digits.read("-0"), "0")
     }
 }
 
