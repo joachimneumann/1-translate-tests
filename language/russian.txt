@@ -1,4 +1,4 @@
-/// https://lingopie.com/blog/your-ultimate-guide-to-russian-numbers-how-to-count-in-russian/
+// https://lingopie.com/blog/your-ultimate-guide-to-russian-numbers-how-to-count-in-russian/
 0 ноль
 1 один
 2 два
