@@ -1,0 +1,12 @@
+0 HieroglyphsImpl.symbolZero
+1 HieroglyphsImpl.symbolOne
+2 HieroglyphsImpl.symbolOne+HieroglyphsImpl.symbolOne
+3 HieroglyphsImpl.symbolOne+HieroglyphsImpl.symbolOne+HieroglyphsImpl.symbolOne
+10 HieroglyphsImpl.symbolTen
+100 HieroglyphsImpl.symbolHundred
+1_000 HieroglyphsImpl.symbolThousand
+4_122 HieroglyphsImpl.symbolThousand+HieroglyphsImpl.symbolThousand+HieroglyphsImpl.symbolThousand+HieroglyphsImpl.symbolThousand+HieroglyphsImpl.symbolHundred+HieroglyphsImpl.symbolTen+HieroglyphsImpl.symbolTen+HieroglyphsImpl.symbolOne+HieroglyphsImpl.symbolOne
+4_002 HieroglyphsImpl.symbolThousand+HieroglyphsImpl.symbolThousand+HieroglyphsImpl.symbolThousand+HieroglyphsImpl.symbolThousand+HieroglyphsImpl.symbolOne+HieroglyphsImpl.symbolOne
+10_000 HieroglyphsImpl.symbolTenThousand
+100_000 HieroglyphsImpl.symbolHundredThousand
+1_000_000 HieroglyphsImpl.symbolMillion
