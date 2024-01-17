@@ -163,6 +163,7 @@
 400_000_000_000 cuatrocientos mil millones
 1_000_000_000_000 un billón
 3_000_000_000_000 tres billiones
+3_000_000_000_003 tres billiones y tres
 
 SETTINGS puntoComma .coma
 -1 menos uno

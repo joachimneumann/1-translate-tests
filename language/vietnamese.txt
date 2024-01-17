@@ -336,6 +336,7 @@ SETTINGS secondLast .lẻ
 SETTINGS thousand .nghìn
 1_000_000_000_000 một nghìn tỷ
 999_000_000_000_000 chín trăm chín chín nghìn tỷ
+1_000_000_000_003 một nghìn tỷ ba
 SETTINGS thousand .ngàn
 1_000_000_000_000 một ngàn tỷ
 999_000_000_000_000 chín trăm chín chín ngàn tỷ

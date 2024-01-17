@@ -147,6 +147,8 @@ SETTINGS capitalisation false
 62_003_105 zweiundsechzig Millionen dreitausendeinhundertfünf
 62_003_155 zweiundsechzig Millionen dreitausendeinhundertfünfundfünfzig
 99_000_000_909 neunundneunzig Milliarden neunhundertneun
+1_000_000_000_000 eine Billion
+1_000_000_000_003 eine Billion und drei
 -1 minus eins
 -15 minus fünfzehn
 
