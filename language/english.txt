@@ -313,5 +313,5 @@ SETTINGS useAndAfterHundred true
 99_000_000_909 ninety-nine billion nine hundred and nine
 99_999_999_999 ninety-nine billion nine hundred and ninety-nine million nine hundred and ninety-nine thousand nine hundred and ninety-nine
 1_000_000_000_000 one trillion
-1_000_000_000_003 one trillion and three
+1_000_000_000_003 one trillion three
 100_000_000_000_000 one hundred trillion

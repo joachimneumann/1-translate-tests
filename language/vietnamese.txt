@@ -164,10 +164,9 @@ SETTINGS secondLast .lẻ
 // What is đơn vị???
 38_003 ba mươi tám nghìn không trăm ba đơn vị
 
-// What is vạn???
-34_000 Ba bốn nghìn
+// vạn is 10000
+// 34_000 Ba vạn bốn nghìn
 34_000 Ba mươi bốn nghìn
-34_000 Ba vạn bốn nghìn
 
 52_425 năm mươi hai nghìn bốn trăm hai mươi lăm
 20_101 hai mươi nghìn một trăm lẻ một

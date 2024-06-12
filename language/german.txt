@@ -142,19 +142,22 @@ SETTINGS capitalisation false
 201_001 zweihunderteintausendeins
 502_305 fünfhundertzweitausenddreihundertfünf
 999_999 neunhundertneunundneunzigtausendneunhundertneunundneunzig
+1_000_000 eine Million
 62_000_000 zweiundsechzig Millionen
 62_003_005 zweiundsechzig Millionen und dreitausendfünf
 62_003_105 zweiundsechzig Millionen und dreitausendeinhundertfünf
 62_003_155 zweiundsechzig Millionen und dreitausendeinhundertfünfundfünfzig
+1_000_000_000 eine Milliarde
+1_000_000_003 eine Milliarde und drei
 99_000_000_909 neunundneunzig Milliarden neunhundertneun
 1_000_000_000_000 eine Billion
 1_000_000_000_003 eine Billion und drei
 1_000_000_003_000 eine Billion und dreitausend
-1_000_000_003_003 eine Billion und dreitausend drei
+1_000_000_003_003 eine Billion und dreitausenddrei
 1_000_003_000_000 eine Billion drei Millionen
 1_000_003_003_000 eine Billion drei Millionen und dreitausend
 1_003_000_000_000 eine Billion drei Milliarden
-1_003_003_003_003 eine Billion drei Milliarden und dreitausend und drei
+1_003_003_003_003 eine Billion drei Milliarden drei Millionen und dreitausenddrei
 -1 minus eins
 -15 minus fünfzehn
 
@@ -163,4 +166,4 @@ SETTINGS capitalisation true
 1 Eins
 2 Zwei
 20_101 Zwanzigtausendeinhunderteins
-62_003_155 Zweiundsechzig Millionen Dreitausendeinhundertfünfundfünfzig
+62_003_155 Zweiundsechzig Millionen und Dreitausendeinhundertfünfundfünfzig
