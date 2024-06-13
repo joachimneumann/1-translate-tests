@@ -2,8 +2,6 @@ SETTINGS compact false
 SETTINGS thousand .nghìn
 SETTINGS secondLast .lẻ
 
-1001 một nghìn không trăm lẻ một
-
 0 không
 1 một
 2 hai
@@ -114,6 +112,7 @@ SETTINGS secondLast .lẻ
 107 một trăm lẻ bảy
 108 một trăm lẻ tám
 109 một trăm lẻ chín
+1001 một nghìn không trăm lẻ một
 
 SETTINGS secondLast .linh
 101 một trăm linh một
