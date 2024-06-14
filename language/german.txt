@@ -26,7 +26,7 @@ SETTINGS capitalisation false
 27 siebenundzwanzig
 28 achtundzwanzig
 29 neunundzwanzig
-20 zwanzig
+30 dreißig
 31 einunddreißig
 32 zweiunddreißig
 33 dreiunddreißig

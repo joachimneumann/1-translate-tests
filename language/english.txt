@@ -146,6 +146,7 @@ SETTINGS useAndAfterHundred false
 201_001 two hundred one thousand one
 502_305 five hundred two thousand three hundred five
 999_999 nine hundred ninety-nine thousand nine hundred ninety-nine
+1_000_000 one million
 62_000_000 sixty-two million
 62_003_005 sixty-two million three thousand five
 62_003_105 sixty-two million three thousand one hundred five
