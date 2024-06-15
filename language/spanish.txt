@@ -164,6 +164,9 @@
 1_000_000_000_000 un billón
 3_000_000_000_000 tres billiones
 3_000_000_000_003 tres billiones y tres
+3_000_000_003_000 tres billiones y tres mil
+3_000_003_000_000 tres billiones y tres millones
+3_003_000_000_000 tres billiones y tres mil millones
 
 SETTINGS puntoComma .coma
 -1 menos uno
