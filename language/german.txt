@@ -134,6 +134,9 @@ SETTINGS capitalisation false
 1_115 eintausendeinhundertfünfzehn
 1_121 eintausendeinhunderteinundzwanzig
 1_125 eintausendeinhundertfünfundzwanzig
+2_000 zweitausend
+2_101 zweitausendeinhunderteins
+2_301 zweitausenddreihunderteins
 10_000 zehntausend
 10_001 zehntausendeins
 20_001 zwanzigtausendeins
@@ -143,6 +146,7 @@ SETTINGS capitalisation false
 502_305 fünfhundertzweitausenddreihundertfünf
 999_999 neunhundertneunundneunzigtausendneunhundertneunundneunzig
 1_000_000 eine Million
+1_000_050 eine Million fünfzig
 62_000_000 zweiundsechzig Millionen
 62_003_005 zweiundsechzig Millionen und dreitausendfünf
 62_003_105 zweiundsechzig Millionen und dreitausendeinhundertfünf
