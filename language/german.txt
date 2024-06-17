@@ -146,7 +146,7 @@ SETTINGS capitalisation false
 502_305 fünfhundertzweitausenddreihundertfünf
 999_999 neunhundertneunundneunzigtausendneunhundertneunundneunzig
 1_000_000 eine Million
-1_000_050 eine Million fünfzig
+1_000_050 eine Million und fünfzig
 62_000_000 zweiundsechzig Millionen
 62_003_005 zweiundsechzig Millionen und dreitausendfünf
 62_003_105 zweiundsechzig Millionen und dreitausendeinhundertfünf
