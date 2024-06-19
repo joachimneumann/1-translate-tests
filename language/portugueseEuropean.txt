@@ -119,8 +119,6 @@
 9_135 nove mil cento e trinta e cinco
 9_837 nove mil oitocentos e trinta e sete
 
-
-
 10_000 dez mil
 10_001 dez mil e um
 10_021 dez mil e vinte e um
@@ -129,8 +127,6 @@
 20_000 vinte mil
 30_000 trinta mil
 54_033 cinquenta e quatro mil e trinta e três
-
-
 
 100_000 cem mil
 100_001 cem mil e um
@@ -144,7 +140,6 @@
 900_000 novecentos mil
 999_000 novecentos e noventa e nove mil
 999_999 novecentos e noventa e nove mil novecentos e noventa e nove
-
 
 1_000_000 um milhão
 1_100_000 um milhão e cem mil
