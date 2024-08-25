@@ -152,19 +152,19 @@ SETTINGS capitalisation false
 62_003_105 zweiundsechzig Millionen und dreitausendeinhundertfünf
 62_003_155 zweiundsechzig Millionen und dreitausendeinhundertfünfundfünfzig
 1_000_000_000 eine Milliarde
-//1_000_000_003 eine Milliarde und drei
-//1_000_000_003 eine Milliarde drei
-99_000_000_909 neunundneunzig Milliarden neunhundertneun
+1_000_000_003 eine Milliarde und drei
+99_000_000_909 neunundneunzig Milliarden und neunhundertneun
 1_000_000_000_000 eine Billion
-//1_000_000_000_003 eine Billion drei
-//1_000_000_003_000 eine Billion dreitausend
-//1_000_000_003_003 eine Billion dreitausenddrei
+1_000_000_000_003 eine Billion drei
+1_000_000_003_000 eine Billion dreitausend
+1_000_000_003_003 eine Billion dreitausenddrei
 1_000_003_000_000 eine Billion drei Millionen
 1_000_003_003_000 eine Billion drei Millionen und dreitausend
 1_003_000_000_000 eine Billion drei Milliarden
-1_003_003_003_003 eine Billion drei Milliarden drei Millionen und dreitausenddrei
+1_003_003_003_003 eine Billion drei Milliarden und drei Millionen und dreitausenddrei
 -1 minus eins
 -15 minus fünfzehn
+-12.334 minus zwölf Komma drei drei vier
 
 SETTINGS capitalisation true
 0 Null
