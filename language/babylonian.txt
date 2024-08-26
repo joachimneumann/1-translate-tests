@@ -1,17 +1,17 @@
-SETTINGS babylonianEmptyColumn false
-1 BabylonianImpl.symbolOne
-60 BabylonianImpl.symbolOne // 6,0
-61 BabylonianImpl.symbolOne+BabylonianImpl.symbolOne // 6,1
-147 BabylonianImpl.symbolTwo+BabylonianImpl.symbolTwenty+BabylonianImpl.symbolSeven // 2,27
-3661 BabylonianImpl.symbolOne+BabylonianImpl.symbolOne+BabylonianImpl.symbolOne // 1,1,1
-21609 BabylonianImpl.symbolSix+BabylonianImpl.symbolNone+BabylonianImpl.symbolNine // 6,0 9.
-424000  BabylonianImpl.symbolOne+BabylonianImpl.symbolFifty+BabylonianImpl.symbolSeven+BabylonianImpl.symbolForty+BabylonianImpl.symbolSix+BabylonianImpl.symbolForty // 1,57,46,40
+SETTINGS allowEmptyColumn false
+1 BabylonianImplementation.symbolOne
+60 BabylonianImplementation.symbolOne+BabylonianImplementation.symbolNone // 6,0
+61 BabylonianImplementation.symbolOne+BabylonianImplementation.symbolOne // 6,1
+147 BabylonianImplementation.symbolTwo+BabylonianImplementation.symbolTwenty+BabylonianImplementation.symbolSeven // 2,27
+3661 BabylonianImplementation.symbolOne+BabylonianImplementation.symbolOne+BabylonianImplementation.symbolOne // 1,1,1
+21609 BabylonianImplementation.symbolSix+BabylonianImplementation.symbolNone+BabylonianImplementation.symbolNine // 6,0 9.
+424000  BabylonianImplementation.symbolOne+BabylonianImplementation.symbolFifty+BabylonianImplementation.symbolSeven+BabylonianImplementation.symbolForty+BabylonianImplementation.symbolSix+BabylonianImplementation.symbolForty // 1,57,46,40
 
-SETTINGS babylonianEmptyColumn true
-1 BabylonianImpl.symbolOne
-60 BabylonianImpl.symbolOne // 6,0
-61 BabylonianImpl.symbolOne+BabylonianImpl.symbolOne // 6,1
-147 BabylonianImpl.symbolTwo+BabylonianImpl.symbolTwenty+BabylonianImpl.symbolSeven // 2,27
-3661 BabylonianImpl.symbolOne+BabylonianImpl.symbolOne+BabylonianImpl.symbolOne // 1,1,1
-21609 BabylonianImpl.symbolSix+BabylonianImpl.symbolEmptyColumn+BabylonianImpl.symbolNine // 6,0 9.
-424000 BabylonianImpl.symbolOne+BabylonianImpl.symbolFifty+BabylonianImpl.symbolSeven+BabylonianImpl.symbolForty+BabylonianImpl.symbolSix+BabylonianImpl.symbolForty // 1,57,46,40
+SETTINGS allowEmptyColumn true
+1 BabylonianImplementation.symbolOne
+60 BabylonianImplementation.symbolOne // 6,0 but no empty column :(
+61 BabylonianImplementation.symbolOne+BabylonianImplementation.symbolOne // 6,1
+147 BabylonianImplementation.symbolTwo+BabylonianImplementation.symbolTwenty+BabylonianImplementation.symbolSeven // 2,27
+3661 BabylonianImplementation.symbolOne+BabylonianImplementation.symbolOne+BabylonianImplementation.symbolOne // 1,1,1
+21609 BabylonianImplementation.symbolSix+BabylonianImplementation.symbolEmptyColumn+BabylonianImplementation.symbolNine // 6,0 9.
+424000 BabylonianImplementation.symbolOne+BabylonianImplementation.symbolFifty+BabylonianImplementation.symbolSeven+BabylonianImplementation.symbolForty+BabylonianImplementation.symbolSix+BabylonianImplementation.symbolForty // 1,57,46,40
