@@ -136,10 +136,10 @@
 
 1_000_000_000_000 trilioni moja
 
--1 menos moja
--75 menos sabini na tano
--1_000_000 menos milioni moja
-3.1415926 tatu kaj moja nne moja tano tisa mbili sita
--3.1415926 menos tatu kaj moja nne moja tano tisa mbili sita
-3.4e16 tatu kaj nne EE kumi na sita
-3.5e26 tatu kaj tano EE ishirini na sita
+-1 negativi moja
+-75 negativi sabini na tano
+-1_000_000 negativi milioni moja
+3.1415926 tatu nukta moja nne moja tano tisa mbili sita
+-3.1415926 negativi tatu nukta moja nne moja tano tisa mbili sita
+3.4e16 tatu nukta nne EE kumi na sita
+3.5e26 tatu nukta tano EE ishirini na sita
